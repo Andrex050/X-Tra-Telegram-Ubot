@@ -9,6 +9,7 @@ from userbot.utils import admin_cmd
 
 @command(outgoing=True, pattern="^.on$")
 async def amireallyalive(alive):
-    await alive.edit("**💭 Userbot Online.**\n"
-	                 "__✨ Created by @Andrex050.__")
+    await alive.edit("__**💭 Userbot Online.**__\n"
+		     "__**📟 Python:**__ `3.7.3`\n"
+	                 "**__👨‍💻 Created by @Andrex050.__**")
 
